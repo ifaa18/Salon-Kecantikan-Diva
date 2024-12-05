@@ -1,0 +1,97 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.card-img-top{
+	width: 18rem;
+	height: 18rem;
+	object-fit: cover;
+}
+
+.card {
+	width: 18rem;
+	margin: 30px;
+	text-align: center;
+}
+
+.card:hover{
+  transform: scale(1.03);
+}
+
+.card-img-top{
+	width: 18rem;
+	height: 18rem;
+	object-fit: cover;
+}
+.card-item{
+  width: 18rem;
+  margin: 30px;
+}
+  
+.card-item:hover{
+	transform: scale(1.03);
+}
+
+.Bintang{
+	color: gold;
+	font-size: 30px;
+}
+
+.corousel-item img{
+  width: 128px;
+}
+
+#testimoni{
+  padding: 20px;
+  text-align: center;
+
+}
+
+#testimoni .avatar{
+	width: 64px;
+}
+
+#tabkontak{
+  font-size: 1.5rem;
+}
+
+#tabkontak td{
+  padding: 2px 10px;
+  vertical-align: top;
+}
+
+#tabkontak td.icon{
+  text-align: left;
+}
+
+#tabkontak td.content{
+  text-align: left;
+}
+
+#tabkontak a{
+  text-decoration: none;
+  font-weight: bold;
+  color: mediumpurple;
+}
+
+#peta {
+  position: relative;
+  padding-bottom: 50%;
+}
+
+#peta iframe {
+  height: 90%;
+  width: 90%;
+  left: 5%;
+  top: 0;
+  position: absolute;
+}
+
+.promo {
+	text-align: center;
+
+}
+
+@media (max-width: 670px){
+  a.navbar-brand {
+    font-size: 0.9rem;
+  }
+}
