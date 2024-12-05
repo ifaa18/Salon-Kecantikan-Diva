@@ -94,4 +94,7 @@
   a.navbar-brand {
     font-size: 0.9rem;
   }
+  a.sidebar{
+     font-size: 0.9px;
+  }
 }
